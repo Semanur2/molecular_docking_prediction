@@ -30,3 +30,12 @@ plt.xlabel("Actual Values (Y Test)")
 plt.ylabel("Predicted Values (Y Pred)")
 plt.title("XGBoost Model - Actual vs Predicted Values")
 plt.show()
+
+plt.figure(figsize=(10, 6))
+sns.scatterplot(x=y_test, y=y_pred)
+plt.xlabel("Actual Values (Y Test)")
+plt.ylabel("Predicted Values (Y Pred)")
+plt.title("XGBoost Model - Actual vs Predicted Values")
+plt.savefig("results/actual_vs_predicted.png")
+plt.show()
+
