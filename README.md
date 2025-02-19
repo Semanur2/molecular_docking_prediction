@@ -19,3 +19,5 @@ This project uses the XGBoost machine learning model to predict molecular dockin
 
 ## Model Performance
 Model MAE: `0.231`
+
+![Actual vs Predicted Plot](results/actual_vs_predicted.png)
