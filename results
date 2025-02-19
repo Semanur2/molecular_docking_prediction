@@ -1,1 +1,4 @@
+## Model Performance
+Model MAE: `0.231`
 
+![Actual vs Predicted Plot](actual_vs_predicted.png)
